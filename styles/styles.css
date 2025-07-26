@@ -125,6 +125,14 @@ main > section{
     font-weight: 400;
     font-size: 1rem;
 }
+/* Some facts */
+.features-love-title{
+    font-size: 2.81rem;
+    font-weight: bold;
+}
+.features-love-description{
+    font-size: 1rem;
+    }
 /* Responsive Media Query */
 @media screen and (max-width:576px) {
     .navbar, 
@@ -145,6 +153,6 @@ main > section{
         flex-direction: column;
     }
     .our-features{
-        margin-left: 48px;
+        margin-left: 48px auto ;
     }
 }
